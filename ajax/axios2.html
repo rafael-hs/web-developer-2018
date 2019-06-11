@@ -18,8 +18,6 @@
             const texto = JSON.stringify(dados)
             document.getElementById(id).innerHTML = texto
         }
-
-
         // axios('parOuImpar?numero=7').then(resp => exibirResultado('get', resp.data))
 
         axios.get('parOuImpar', {

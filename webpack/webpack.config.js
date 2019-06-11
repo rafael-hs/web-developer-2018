@@ -11,7 +11,7 @@ module.exports = {
         filename: 'principal.js',
         path: __dirname + '/public'
     },
-    devserver:{
+    devServer:{
         contentBase: "./public",
         port: 9000
     },
